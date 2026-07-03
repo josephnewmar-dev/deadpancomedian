@@ -2,23 +2,62 @@
 <html>
 <head>
 <title>DeadpanComedian.com</title>
+
+<style>
+body{
+    margin:0;
+    padding:0;
+    background-image:url('accounting-to-comedy-sniff.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:100vh;
+    font-family:Arial, sans-serif;
+}
+
+.overlay{
+    height:100vh;
+    background:rgba(0,0,0,.45);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+}
+
+h1{
+    font-size:4rem;
+    margin-bottom:10px;
+}
+
+h2{
+    font-size:2rem;
+    margin-bottom:30px;
+}
+
+.button{
+    background:#d4af37;
+    color:black;
+    padding:15px 30px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:8px;
+}
+</style>
 </head>
+
 <body>
-<h1>DeadpanComedian.com</h1>
 
-<h2>The Home of Deadpan Comedy</h2>
+<div class="overlay">
+    <h1>Joe "The Sniff" Newmar</h1>
 
-<p>Featuring Joe "The Sniff" Newmar</p>
+    <h2>Serious About Being Funny</h2>
 
-<p>
-Former corporate accounting executive.<br>
-Deadpan comedian.<br>
-Star of From Accounting to Comedy, Sniff.
-</p>
-
-<p>
-<a href="https://www.atcsniff.com">Visit ATCSniff.com</a>
-</p>
+    <a class="button" href="https://www.atcsniff.com">
+        Watch the Documentary
+    </a>
+</div>
 
 </body>
 </html>
