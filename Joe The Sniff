@@ -1,1 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Joe "The Sniff" Newmar | DeadpanComedian.com</title>
 
+<style>
+body{
+    font-family:Arial,sans-serif;
+    max-width:1000px;
+    margin:auto;
+    padding:40px;
+    background:#111;
+    color:white;
+    line-height:1.7;
+}
+
+a{
+    color:gold;
+}
+
+nav{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+nav a{
+    margin:0 15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+h1,h2{
+    color:white;
+}
+
+.button{
+    background:gold;
+    color:black;
+    padding:12px 24px;
+    text-decoration:none;
+    font-weight:bold;
+    display:inline-block;
+    margin-top:20px;
+    margin-right:10px;
+}
+
+.hero{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.poster{
+    max-width:400px;
+    width:100%;
+    border-radius:10px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="steven-wright.html">Steven Wright</a>
+<a href="mitch-hedberg.html">Mitch Hedberg</a>
+<a href="demetri-martin.html">Demetri Martin</a>
+<a href="joe-the-sniff.html">Joe "The Sniff"</a>
+</nav>
+
+<div class="hero">
+<img class="poster" src="accounting-to-comedy-sniff.jpg" alt="From Accounting to Comedy, Sniff">
+<h1>Joe "The Sniff" Newmar</h1>
+<h2>From Accounting to Comedy</h2>
+
+<a class="button" href="https://www.atcsniff.com">
+Visit ATCSniff.com
+</a>
+
+<a class="button" href="https://www.atcsniff.com">
+Watch the Trailer
+</a>
+</div>
+
+<p>
+Joe "The Sniff" Newmar is a modern deadpan comedian who combines understated delivery, surreal observations, visual storytelling, and a healthy appreciation for life's absurdities.
+</p>
+
+<p>
+Influenced by deadpan legends Steven Wright, Mitch Hedberg, and Demetri Martin, Newmar has developed a distinctive style that blends classic one-liners with props, AI-generated visuals, and creative storytelling. Working alongside his trusty "Prop Fairy," he transforms everyday situations into unexpected comedic experiences.
+</p>
+
+<p>
+What makes Joe unique is his unlikely path to comedy. After a successful career in corporate accounting and executive leadership, he traded spreadsheets and SEC filings for stand-up comedy and filmmaking.
+</p>
+
+<p>
+That journey became the foundation for his documentary:
+</p>
+
+<h2>From Accounting to Comedy, Sniff</h2>
+
+<p>
+A humorous and inspiring look at one man's unexpected pursuit of laughter, creativity, and reinvention.
+</p>
+
+<p>
+The film combines stand-up comedy, documentary storytelling, visual humor, and a cast of memorable characters—including the legendary Prop Fairy.
+</p>
+
+<a class="button" href="https://www.atcsniff.com">
+Rent the Documentary
+</a>
+
+<a class="button" href="https://www.atcsniff.com">
+Learn More
+</a>
+
+</body>
+</html>
