@@ -35,17 +35,37 @@ nav a{
 }
 
 .overlay{
-    background:rgba(0,0,0,.6);
-    padding:30px;
+    background:rgba(0,0,0,.65);
+    padding:40px;
     text-align:center;
+    border-radius:10px;
 }
 
 .section{
-    padding:60px 40px;
+    padding:50px;
+    max-width:1100px;
+    margin:auto;
 }
 
-h1,h2{
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content:center;
+}
+
+.card{
+    background:#222;
+    padding:20px;
+    width:220px;
+    border-radius:8px;
     text-align:center;
+}
+
+.card a{
+    color:gold;
+    text-decoration:none;
+    font-weight:bold;
 }
 
 .button{
@@ -54,12 +74,7 @@ h1,h2{
     padding:12px 24px;
     text-decoration:none;
     font-weight:bold;
-}
-
-.comedian{
-    border:1px solid #444;
-    padding:20px;
-    margin:20px 0;
+    border-radius:6px;
 }
 </style>
 </head>
@@ -67,60 +82,62 @@ h1,h2{
 <body>
 
 <nav>
-<a href="#home">Home</a>
-<a href="#steven">Steven Wright</a>
-<a href="#mitch">Mitch Hedberg</a>
-<a href="#demetri">Demetri Martin</a>
-<a href="#joe">Joe "The Sniff"</a>
+<a href="index.html">Home</a>
+<a href="steven-wright.html">Steven Wright</a>
+<a href="mitch-hedberg.html">Mitch Hedberg</a>
+<a href="demetri-martin.html">Demetri Martin</a>
+<a href="joe-the-sniff.html">Joe "The Sniff"</a>
 </nav>
 
-<div class="hero" id="home">
+<div class="hero">
 <div class="overlay">
 <h1>Deadpan Comedy</h1>
 <h2>Featuring Joe "The Sniff" Newmar</h2>
-<a class="button" href="https://www.atcsniff.com">Visit ATCSniff.com</a>
+
+<p>
+Exploring the work of Steven Wright, Mitch Hedberg,
+Demetri Martin, and contemporary deadpan comedian
+Joe "The Sniff" Newmar.
+</p>
+
+<a class="button" href="https://www.atcsniff.com">
+Watch the Trailer
+</a>
 </div>
 </div>
 
 <div class="section">
-<h2>Welcome</h2>
-<p>
-Deadpan comedy is a style of humor delivered with a serious expression and understated tone.
-This site highlights Steven Wright, Mitch Hedberg, Demetri Martin, and Joe "The Sniff" Newmar.
-</p>
+
+<h2>Explore the Masters of Deadpan Comedy</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Steven Wright</h3>
+<p>Pioneer of modern deadpan comedy and surreal one-liners.</p>
+<a href="steven-wright.html">Learn More</a>
 </div>
 
-<div class="section" id="steven">
-<h2>Steven Wright</h2>
-<div class="comedian">
-<p>Master of surreal one-liners and one of the most influential deadpan comedians ever.</p>
-<p>Add your 6 YouTube links here later.</p>
-</div>
+<div class="card">
+<h3>Mitch Hedberg</h3>
+<p>Legendary master of observational one-liners and relaxed delivery.</p>
+<a href="mitch-hedberg.html">Learn More</a>
 </div>
 
-<div class="section" id="mitch">
-<h2>Mitch Hedberg</h2>
-<div class="comedian">
-<p>Legendary comedian known for unique observations and memorable one-liners.</p>
-<p>Add your 6 YouTube links here later.</p>
-</div>
+<div class="card">
+<h3>Demetri Martin</h3>
+<p>Intellectual deadpan comedy enhanced by visuals and wordplay.</p>
+<a href="demetri-martin.html">Learn More</a>
 </div>
 
-<div class="section" id="demetri">
-<h2>Demetri Martin</h2>
-<div class="comedian">
-<p>Deadpan comedian known for clever wordplay, drawings, and observational humor.</p>
-<p>Add your 6 YouTube links here later.</p>
-</div>
+<div class="card">
+<h3>Joe "The Sniff"</h3>
+<p>Modern deadpan comedy, documentary filmmaking, and visual storytelling.</p>
+<a href="joe-the-sniff.html">Learn More</a>
 </div>
 
-<div class="section" id="joe">
-<h2>Joe "The Sniff" Newmar</h2>
-<div class="comedian">
-<p>Former corporate accounting executive turned deadpan comedian.</p>
-<p>Star of "From Accounting to Comedy, Sniff."</p>
-<p><a class="button" href="https://www.atcsniff.com">Watch the Documentary</a></p>
 </div>
+
 </div>
 
 </body>
